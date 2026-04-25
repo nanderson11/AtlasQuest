@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.6.3 - April 25, 2026
+### Changed
+- Retail: Update TOC to 12.0.5
+
 ## 5.6.2 - March 23, 2026
 ### Added
 - Added a couple follow-up quests (thanks m0ezes)
