@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.6.4 - June 16, 2026
+### Changed
+- Retail: Update TOC to 12.0.7
+
 ## 5.6.3 - April 25, 2026
 ### Changed
 - Retail: Update TOC to 12.0.5
