@@ -1,4 +1,4 @@
-﻿## Interface: 11508
+﻿## Interface: 11509
 
 ## Title: AtlasQuest
 ## Title-deDE: AtlasQuest
@@ -18,18 +18,31 @@
 ## Notes-esES: Muestra las misiones para mazmorras y campos de batalla.
 ## Notes-esMX: Muestra las misiones para mazmorras y campos de batalla.
 
+## Category-enUS: Map
+## Category-deDE: Karte
+## Category-esES: Mapa
+## Category-esMX: Mapa
+## Category-frFR: Carte
+## Category-itIT: Mappa
+## Category-koKR: 지도
+## Category-ptBR: Mapa
+## Category-ruRU: Карта
+## Category-zhCN: 地图
+## Category-zhTW: 地圖
+
 ## Author: AtlasQuest Team
 ## Version: @project-version@
+## Group: AtlasQuest
 ## X-Website: https://github.com/thandrenn/AtlasQuest
 ## X-Category: Quests
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
 ## X-Curse-Project-ID: 4918
-## X-Date: August 5, 2024
 ## RequiredDeps: Atlas
 ## OptionalDeps: DevTool
 ## LoadOnDemand: 0
+## IconTexture: Interface\lfgframe\lfgicon-quest
 ## SavedVariables: AtlasQuest_Options,AtlasQuestDB
 
 Libs\Libs.xml
