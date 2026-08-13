@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.6.7 - August 12, 2026
+### Changed
+- Retail: Update TOC to 12.1.0
+
 ## 5.6.6 - July 21, 2026
 ### Changed
 - Classic Era: Added category, group and icon to TOC
