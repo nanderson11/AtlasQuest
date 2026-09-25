@@ -1,6 +1,8 @@
 # Changelog
 
 ## 5.6.8 - September 25, 2026
+### Added
+- Forever: Added support for Forever
 ### Changed
 - Updated libraries
 

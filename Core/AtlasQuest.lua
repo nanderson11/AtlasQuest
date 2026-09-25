@@ -181,7 +181,8 @@ function AtlasQuest:OnEnable()
 	AtlasQuestFrame.faction = 1;
 
 	-- On retail, the close button is too big, make it smaller
-	if (select(4, GetBuildInfo()) > 90000) then
+	local wowversion = select(4, GetBuildInfo())
+	if (wowversion > 90000 or (wowversion > 16000 and wowversion < 20000)) then
 		AQ_SidebarClose:SetSize(20, 20);
 		AQ_QuestClose:SetSize(20, 20);
 	end
@@ -358,8 +359,9 @@ end
 
 function AtlasQuest:GetQuests()
 	local completedQuestsServer = {};
-	if (select(4, GetBuildInfo()) > 90000) then
-		-- Retail (change format of result to match Classic)
+	local wowversion = select(4, GetBuildInfo())
+	if (wowversion > 90000 or (wowversion > 16000 and wowversion < 20000)) then
+		-- Retail and Forever (change format of result to match Classic)
 		for _, questID in pairs(C_QuestLog.GetAllCompletedQuestIDs()) do
 			completedQuestsServer[questID] = true;
 		end
