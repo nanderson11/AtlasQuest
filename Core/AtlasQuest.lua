@@ -171,8 +171,19 @@ function AtlasQuest:OnEnable()
 	self:RegisterEvent("QUEST_TURNED_IN");
 
 	-- Add hooks
-	self:Hook("Atlas_OnShow");
-	self:RawHook("Atlas_MapRefresh");
+	-- Atlas v1.54+ removed the globals Atlas_OnShow and Atlas_MapRefresh.
+	-- Hook the AtlasFrame OnShow script and Atlas:RefreshMap instead.
+	-- Keep the old hooks for older Atlas versions.
+	if (type(_G.Atlas_OnShow) == "function") then
+		self:Hook("Atlas_OnShow");
+	elseif (AtlasFrame) then
+		self:SecureHookScript(AtlasFrame, "OnShow", "Atlas_OnShow");
+	end
+	if (type(_G.Atlas_MapRefresh) == "function") then
+		self:SecureHook("Atlas_MapRefresh");
+	elseif (type(_G.Atlas) == "table" and type(_G.Atlas.RefreshMap) == "function") then
+		self:SecureHook(_G.Atlas, "RefreshMap", "Atlas_MapRefresh");
+	end
 
 	-- Set text on things that never change and initial faction
 	AQ_OptionsButton:SetText(L["Options"]);
@@ -574,7 +585,7 @@ end
 ---Updates displayed quests when map changes
 ---Hook: Atlas_MapRefresh
 function AtlasQuest:Atlas_MapRefresh()
-	self.hooks.Atlas_MapRefresh();
+	-- Post-hook: the original function already ran
 	AtlasQuest:ChangeMap();
 end
 
