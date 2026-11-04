@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.6.9 - November 4, 2026
+### Fixed
+- Fixed compatibility with newer versions of original Atlas (thanks KevSteele)
+
 ## 5.6.8 - September 25, 2026
 ### Added
 - Forever: Added support for Forever
