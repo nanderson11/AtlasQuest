@@ -73,6 +73,30 @@ AQInstances = {
 		["Atlas_OutdoorRaids\\Images\\OR_Azuregos"] = 37,
 		["Atlas_OutdoorRaids\\Images\\OR_HighlordKruul"] = 38,
 
+		-- Forever (old)
+		["Atlas_ClassicWoW\\Images\\CF_Gnomeregan"] = 6,
+		["Atlas_ClassicWoW\\Images\\CF_MaraudonA"] = 21,
+		["Atlas_ClassicWoW\\Images\\CF_MaraudonB"] = 21,
+		["Atlas_ClassicWoW\\Images\\CF_MoltenCore"] = 27,
+		["Atlas_ClassicWoW\\Images\\CF_RagefireChasm"] = 22,
+		["Atlas_ClassicWoW\\Images\\CF_RazorfenDowns"] = 23,
+		["Atlas_ClassicWoW\\Images\\CF_RazorfenKraul"] = 24,
+		["Atlas_ClassicWoW\\Images\\CF_TheStockade"] = 13,
+		["Atlas_ClassicWoW\\Images\\CF_Uldaman"] = 16,
+		["Atlas_ClassicWoW\\Images\\CF_WailingCaverns"] = 25,
+		["Atlas_ClassicWoW\\Images\\CF_WailingCavernsEnt"] = 25,
+		-- Forever (new)
+		["Atlas_ClassicWoW\\Images\\CF_HallofThanes"] = 3065,
+		["Atlas_ClassicWoW\\Images\\CF_RuinsofLordaeron"] = 2999,
+		["Atlas_ClassicWoW\\Images\\CF_ExcavationSiteWetlands"] = 2998,
+		["Atlas_ClassicWoW\\Images\\CF_CityofDalaranA"] = 2959,
+		["Atlas_ClassicWoW\\Images\\CF_CityofDalaranB"] = 2959,
+		["Atlas_ClassicWoW\\Images\\CF_DrownedCity"] = 2970,
+		["Atlas_ClassicWoW\\Images\\CF_KroldokStronghold"] = 3039,
+		--["Atlas_ClassicWoW\\Images\\CF_AlcazPrison"] = 2994,
+		--["Atlas_ClassicWoW\\Images\\CF_BlackmawHold"] = 2974,
+		--["Atlas_ClassicWoW\\Images\\CF_TheShapersTerrace"] = 3001,
+
 		-- Burning Crusade
 		["Atlas_BurningCrusade\\Images\\CL_HCHellfireRamparts"] = 40,
 		["Atlas_BurningCrusade\\Images\\CL_HCBloodFurnace"] = 41,
@@ -447,6 +471,14 @@ if (select(4, GetBuildInfo()) > 90000) then
 
 			-- Midnight Instances
 			-- NOT ADDED TO ATLAS
+			-- The Blinding Vale: Lightbloom Roots
+			-- Den quest
+			-- magisters' terrace: homecoming
+			-- windrunner spire: haunting melodies
+			-- nexus point xenas: eclipse
+			-- void scar arena: breaking the triad
+			-- murder row: one fel swoop
+			-- maisara caverns: maisara hungers
 
 			-- Battlegrounds
 			["Atlas_Battlegrounds\\Images\\AlteracValleyNorth"] = 33,

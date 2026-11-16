@@ -97,6 +97,14 @@ if (select(4, GetBuildInfo()) < 90000) then
 	L["Instance_36_Name"] = "Dragons of Nightmare";
 	L["Instance_37_Name"] = "Azuregos";
 	L["Instance_38_Name"] = "Highlord Kruul";
+
+	L["Instance_3065_Name"] = "Hall of Thanes";
+	L["Instance_2999_Name"] = "Ruins of Lordaeron";
+	L["Instance_2998_Name"] = "Excavation Site: Wetlands";
+	L["Instance_2959_Name"] = "City of Dalaran";
+	L["Instance_2970_Name"] = "The Drowned City";
+	L["Instance_3039_Name"] = "Krol'dok Stronghold";
+
 	L["Instance_40_Name"] = "Hellfire Ramparts";
 	L["Instance_41_Name"] = "The Blood Furnace";
 	L["Instance_42_Name"] = "Shattered Halls";
@@ -2555,6 +2563,173 @@ L["Quest_7634_Location"] = "Hastat the Ancient (Felwood - Irontree Woods; "..YEL
 L["Quest_7634_Note"] = "Kill Azuregos to get the Mature Blue Dragon Sinew. He walks around the middle of the southern peninsula in Azshara near "..YELLOW.."[1]"..WHITE..".";
 L["Quest_7634_RewardText"] = WHITE.."1";
 L["Quest_7634_PreQuest"] = "The Ancient Leaf ("..YELLOW.."Molten Core"..WHITE..")";
+
+-- Forever Quests
+L["Quest_96403_Name"] = "Important Heirlooms";
+L["Quest_96403_Objective"] = "Collect 8 Dwarven Heirlooms from the Hall of Thanes.";
+L["Quest_96403_Location"] = "Thom Filch (Ironforge - High Seat; "..YELLOW.."31.6, 45.6"..WHITE..")";
+L["Quest_96403_Note"] = "";
+L["Quest_96403_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_96394_Name"] = "The Restless Dead";
+L["Quest_96394_Objective"] = "Kill 15 Enraged Apparitions, 10 Tormented Souls and put the spirit of Anvilmar to rest.";
+L["Quest_96394_Location"] = "Afadra Dunwall (Ironforge - High Seat; "..YELLOW.."33.2, 48.6"..WHITE..")";
+L["Quest_96394_Note"] = "";
+L["Quest_96394_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_96393_Name"] = "Old Ironforge Incursion";
+L["Quest_96393_Objective"] = "Enter the Hall of Thanes beneath Old Ironforge and claim the Head of Durgen Dirgehammer.";
+L["Quest_96393_Location"] = "Earthseer Farsen (Dun Morogh - Gol'Bolar Quarry; "..YELLOW.."64.8, 58.4"..WHITE..")";
+L["Quest_96393_Note"] = "The prequest starts from the Dark Iron Map, which drops from Dark Iron Mobs in southeast Dun Morogh.";
+L["Quest_96393_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
+L["Quest_96393_PreQuest"] = "Underground Map";
+
+L["Quest_98423_Name"] = "The Treaty of Understanding";
+L["Quest_98423_Objective"] = "Deliver the Treaty of Understanding to Magni Bronzebeard in Ironforge.";
+L["Quest_98423_Location"] = "Durgen Dirgehammer (Hall of Thanes; "..GREEN.."[2']"..WHITE..")";
+L["Quest_98423_Note"] = "The item to start the quest is inside the vault after defeating the boss.";
+L["Quest_98423_RewardText"] = AQ_NONE;
+
+L["Quest_96395_Name"] = "An Ancient Grudge";
+L["Quest_96395_Objective"] = "Put the spirit of Faldrim Anvilmar to rest and then return to the Ghostly Attendant in the Hall of Thanes.";
+L["Quest_96395_Location"] = "Ghostly Attendant (Hall of Thanes; "..GREEN.."[1']"..WHITE..")";
+L["Quest_96395_Note"] = "Kill Faldrim Anvilmar "..YELLOW.."[1]"..WHITE.." in the next room and then return to the Ghostly Attendant.";
+L["Quest_96395_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_95250_Name"] = "Abominable Creatures";
+L["Quest_95250_Objective"] = "Collect the Head of the Baron in the Ruins of Lordaeron and bring it back to Captain Truman.";
+L["Quest_95250_Location"] = "Captain Truman (Ruins of Lordaeron; "..GREEN.."[1']"..WHITE..")";
+L["Quest_95250_Note"] = "Kill The Baron "..YELLOW.."[1]"..WHITE..", loot his head and return to Captain Truman.";
+L["Quest_95250_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
+
+L["Quest_95195_Name"] = "Bloodied Insignia";
+L["Quest_95195_Objective"] = "Collect 10 Bloodied Insignias and take them to General Marcus Jonathan in Stormwind City.";
+L["Quest_95195_Location"] = "Ruins of Lordaeron";
+L["Quest_95195_Note"] = "Loot one of the quest items in the instance to start the quest.";
+L["Quest_95195_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_92415_Name"] = "Remember That I Love You";
+L["Quest_92415_Objective"] = "Bring the Blood-Stained Letter to Orphan Matron Nightingale in Stormwind City.";
+L["Quest_92415_Location"] = "Rath'mael (Ruins of Lordaeron; "..YELLOW.."[5]"..WHITE..")";
+L["Quest_92415_Note"] = "The Blood-Stained Letter is picked up near Rath'mael "..YELLOW.."[5]"..WHITE..". The follow up quest rewards a necklace.";
+L["Quest_92415_RewardText"] = AQ_NONE;
+L["Quest_92415_FollowQuest"] = "Remember That I Love You";
+
+L["Quest_95189_Name"] = "Crest of Lordaeron";
+L["Quest_95189_Objective"] = "Return the Crest of Lordaeron to Lady Dena Kennedy in Stormwind City.";
+L["Quest_95189_Location"] = "Ruins of Lordaeron";
+L["Quest_95189_Note"] = "The Crest of Lordaeron has a few spawn points around the instance.";
+L["Quest_95189_RewardText"] = WHITE.."1";
+
+L["Quest_92422_Name"] = "The Wrath of Rath'mael";
+L["Quest_92422_Objective"] = "Kill Rath'mael in the Ruins of Lordaeron for Deathguard Kristof in Brill.";
+L["Quest_92422_Location"] = "Deathguard Kristof (Tirisfal Glades - Undercity; "..YELLOW.."64.6, 61.0"..WHITE..")";
+L["Quest_92422_Note"] = "Kill Rath'mael "..YELLOW.."[5]"..WHITE..".";
+L["Quest_92422_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+L["Quest_92422_PreQuest"] = "Rear Guard Patrol";
+
+L["Quest_92401_Name"] = "A Frightened Request";
+L["Quest_92401_Objective"] = "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.";
+L["Quest_92401_Location"] = "Tabitha Heartweaver (Silverpine Forest - The Sepulcher; "..YELLOW.."44.6, 42.8"..WHITE..")";
+L["Quest_92401_Note"] = "Inside the graveyard area near Rath'mael "..YELLOW.."[5]"..WHITE..".";
+L["Quest_92401_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_92421_Name"] = "Light's Justice";
+L["Quest_92421_Objective"] = "Collect 25 Intact Limbs within The Ruins of Lordaeron for Morbin Lightbane in the Undercity.";
+L["Quest_92421_Location"] = "Morbin Lightbane (Undercity - The Apothecarium; "..YELLOW.."58.0, 89.0"..WHITE..")";
+L["Quest_92421_Note"] = "";
+L["Quest_92421_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_95216_Name"] = "The New Plague";
+L["Quest_95216_Objective"] = "Collect the Highly Toxic Strain from Witherfang in Ruins of Lordaeron for Theodore Griffs in Undercity.";
+L["Quest_95216_Location"] = "Theodore Griffs (Undercity - The Apothecarium; "..YELLOW.."46.6, 71.8"..WHITE..")";
+L["Quest_95216_Note"] = "Kill Witherfang "..YELLOW.."[2]"..WHITE..".";
+L["Quest_95216_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+L["Quest_95216_PreQuest"] = "A Recipe For Death";
+
+L["Quest_97288_Name"] = "Unending Torment";
+L["Quest_97288_Objective"] = "Deliver the Abominable Head to Master Apothecary Faranell within the Undercity.";
+L["Quest_97288_Location"] = "The Baron (Ruins of Lordaeron; "..YELLOW.."[1]"..WHITE..")";
+L["Quest_97288_Note"] = "";
+L["Quest_97288_RewardText"] = AQ_NONE;
+L["Quest_97288_FollowQuest"] = "Unending Torment";
+
+L["Quest_95204_Name"] = "Crest of Lordaeron";
+L["Quest_95204_Objective"] = "Bring the Crest of Lordaeron to Oran Snakewrithe in Undercity.";
+L["Quest_95204_Location"] = "Ruins of Lordaeron";
+L["Quest_95204_Note"] = "The Crest of Lordaeron has a few spawn points around the instance.";
+L["Quest_95204_RewardText"] = WHITE.."1";
+
+L["Quest_98815_Name"] = "Highland Hides";
+L["Quest_98815_Objective"] = "Return 4 Thicket Raptor Hides to James Halloran, the tanner, in Menethil Harbor.";
+L["Quest_98815_Location"] = "James Halloran (Wetlands - Menethil Harbor; "..YELLOW.."8.6, 55.6"..WHITE..")";
+L["Quest_98815_Note"] = "";
+L["Quest_98815_RewardText"] = AQ_NONE;
+L["Quest_98815_PreQuest"] = "Young Crocolisk Skins";
+
+L["Quest_95772_Name"] = "Songblade Search";
+L["Quest_95772_Objective"] = "Look for Dorin Songblade's brother, Daewyn, in Whelgar's Excavation Site.";
+L["Quest_95772_Location"] = "Dorin Songblade (Redridge Mountains - Lakeshire; "..YELLOW.."25.6, 46.6"..WHITE..")";
+L["Quest_95772_Note"] = "";
+L["Quest_95772_RewardText"] = AQ_NONE;
+L["Quest_95772_FollowQuest"] = "Fallen in the Fen";
+
+L["Quest_95646_Name"] = "Horrors in the Highland";
+L["Quest_95646_Objective"] = "Kill a Highland Horror within Excavation Sites and bring its root core to Rethiel the Greenwarden in the Wetlands.";
+L["Quest_95646_Location"] = "Rethiel the Greenwarden (Wetlands; "..YELLOW.."56.2, 40.6"..WHITE..")";
+L["Quest_95646_Note"] = "Kill Highland Horror "..YELLOW.."[4]"..WHITE..".";
+L["Quest_95646_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
+L["Quest_95646_PreQuest"] = "Blisters on The Land";
+
+L["Quest_95647_Name"] = "Lost in the Thicket Things";
+L["Quest_95647_Objective"] = "Find Ardin Grassman in the Excavation Sites.";
+L["Quest_95647_Location"] = "Caitlin Grassman (Wetlands - Menethil Harbor; "..YELLOW.."11.8, 58.8"..WHITE..")";
+L["Quest_95647_Note"] = "Turn in and get the followup quest Heartwoven near Relic Guardian "..YELLOW.."[3]"..WHITE..".";
+L["Quest_95647_RewardText"] = AQ_NONE;
+L["Quest_95647_FollowQuest"] = "Heartwoven";
+
+L["Quest_95809_Name"] = "Heartwoven";
+L["Quest_95809_Objective"] = "Return to Caitlin Grassman in Menethil Harbor.";
+L["Quest_95809_Location"] = "Ardin Grassman (Excavation Site: Wetlands; near "..YELLOW.."[3]"..WHITE..")";
+L["Quest_95809_Note"] = "";
+L["Quest_95809_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."2"..AQ_AND..WHITE.."3"..AQ_OR..WHITE.."4";
+L["Quest_95809_PreQuest"] = "Lost in the Thicket Things";
+
+L["Quest_95810_Name"] = "Lost Relic Carry";
+L["Quest_95810_Objective"] = "Bring the Titan Relic to Prospector Whelgar in the Wetlands excavation site.";
+L["Quest_95810_Location"] = "Relic Guardian (Excavation Site: Wetlands; "..YELLOW.."[3]"..WHITE..")";
+L["Quest_95810_Note"] = "Quest starts from an item dropped by Relic Guardian "..YELLOW.."[3]"..WHITE..". Turn in to Prospector Whelgar in Whelgar's Excavation Site.";
+L["Quest_95810_RewardText"] = AQ_NONE;
+L["Quest_95810_FollowQuest"] = "Prehistoric Prism";
+
+L["Quest_95697_Name"] = "Changing Tastes";
+L["Quest_95697_Objective"] = "Enter the Excavation Sites in the Wetlands and bring back Thicket Raptor Meat.";
+L["Quest_95697_Location"] = "Borstan (Orgrimmar - The Drag; "..YELLOW.."57.6, 53.4"..WHITE..")";
+L["Quest_95697_Note"] = "";
+L["Quest_95697_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."2"..AQ_AND..WHITE.."3"..AQ_OR..WHITE.."4";
+
+L["Quest_95664_Name"] = "Elder Knowledge";
+L["Quest_95664_Objective"] = "Take the Titan Relic to the Elder Rise in Thunder Bluff and look for someone who can tell you more about it.";
+L["Quest_95664_Location"] = "Relic Guardian (Excavation Site: Wetlands; "..YELLOW.."[3]"..WHITE..")";
+L["Quest_95664_Note"] = "Quest starts from an item dropped by Relic Guardian "..YELLOW.."[3]"..WHITE..".";
+L["Quest_95664_RewardText"] = AQ_NONE;
+L["Quest_95664_FollowQuest"] = "Earthen Echo";
+
+L["Quest_95682_Name"] = "Open the Maw";
+L["Quest_95682_Objective"] = "Slay the Dragonmaw forces within the Excavation Site and return to the Deathstalker Agent outside with anything you recover.";
+L["Quest_95682_Location"] = "Deathstalker Agent (Wetlands; "..YELLOW.."51.4, 59.2"..WHITE..")";
+L["Quest_95682_Note"] = "Prequest is acquired from Zaruk in Arathi Highlands - Hammerfall.";
+L["Quest_95682_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."2"..AQ_OR..WHITE.."3";
+L["Quest_95682_PreQuest"] = "Dragonmaw Rumors";
+
+-- Placeholder
+--[[
+L["Quest__Name"] = "Dead";
+L["Quest__Objective"] = "Kill";
+L["Quest__Location"] = "Afadra (Ironforge - Commons; "..YELLOW.."33.2, 48.6"..WHITE..")";
+L["Quest__Note"] = "";
+L["Quest__RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+]]
 
 -- Burning Crusade Classic Quests
 L["Quest_9575_Name"] = "Weaken the Ramparts";

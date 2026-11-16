@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.7.0 - November 16, 2026
+### Added
+- Forever: Added quests for Hall of Thanes, Ruins of Lordaeron and Excavation Site: Wetlands. Note that these maps are only in original Atlas, not Atlas (fork).
+### Fixed
+- Forever: Fixed some old maps not having their quests show up when using original Atlas
+
 ## 5.6.9 - November 4, 2026
 ### Fixed
 - Fixed compatibility with newer versions of original Atlas (thanks KevSteele)
