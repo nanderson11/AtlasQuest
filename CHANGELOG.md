@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.8.0 - November 20, 2026
+### Added
+- Forever: Added quests for City of Dalaran, Drowned City and Krol'dok Stronghold. Note that these maps are only in original Atlas, not Atlas (fork).
+
 ## 5.7.0 - November 16, 2026
 ### Added
 - Forever: Added quests for Hall of Thanes, Ruins of Lordaeron and Excavation Site: Wetlands. Note that these maps are only in original Atlas, not Atlas (fork).

@@ -834,7 +834,7 @@ L["Quest_6602_PreQuest"] = "The Test of Skulls, Axtroz -> Ascension...";
 L["Quest_214_Name"] = "Red Silk Bandanas";
 L["Quest_214_Objective"] = "Scout Riell at the Sentinel Hill Tower wants you to bring her 10 Red Silk Bandanas.";
 L["Quest_214_Location"] = "Scout Riell (Westfall - Sentinel Hill; "..YELLOW.."56.6, 47.4"..WHITE..")";
-L["Quest_214_Note"] = "You can get the Red Silk Bandanas from miners in the Deadmines or the in the town where the dungeon is located.  The quest becomes available after you complete the The Defias Brotherhood questline up to the part where you have to kill Edwin VanCleef.";
+L["Quest_214_Note"] = "You can get the Red Silk Bandanas from miners in the Deadmines or in the town where the dungeon is located.  The quest becomes available after you complete the The Defias Brotherhood questline up to the part where you have to kill Edwin VanCleef.";
 L["Quest_214_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
 L["Quest_214_PreQuest"] = "The Defias Brotherhood";
 
@@ -2721,6 +2721,172 @@ L["Quest_95682_Location"] = "Deathstalker Agent (Wetlands; "..YELLOW.."51.4, 59.
 L["Quest_95682_Note"] = "Prequest is acquired from Zaruk in Arathi Highlands - Hammerfall.";
 L["Quest_95682_RewardText"] = WHITE.."1"..AQ_AND..WHITE.."2"..AQ_OR..WHITE.."3";
 L["Quest_95682_PreQuest"] = "Dragonmaw Rumors";
+
+L["Quest_92489_Name"] = "Power Overwhelming";
+L["Quest_92489_Objective"] = "Slay the Mana Elemental in the City of Dalaran for High Sorcerer Andromath in Stormwind City.";
+L["Quest_92489_Location"] = "High Sorcerer Andromath (Stormwind City - The Mage Quarter; "..YELLOW.."48.8, 87.6"..WHITE..")";
+L["Quest_92489_Note"] = "Kill the Arcanic Enigma "..YELLOW.."[4]"..WHITE..".";
+L["Quest_92489_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_92458_Name"] = "Heart of Disruption";
+L["Quest_92458_Objective"] = "Collect the Arcane Mote for the Image of Archmage Modera near the City of Dalaran.";
+L["Quest_92458_Location"] = "Image of Archmage Modera (Silverpine Forest; "..YELLOW.."68.6, 45.2"..WHITE..")";
+L["Quest_92458_Note"] = "Drops from Shade of the Archmage "..YELLOW.."[8]"..WHITE..".";
+L["Quest_92458_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
+L["Quest_92458_PreQuest"] = "An Alarming Request";
+L["Quest_92458_FollowQuest"] = "Friend of the Kirin Tor";
+
+L["Quest_92456_Name"] = "A Green Sample";
+L["Quest_92456_Objective"] = "Collect a Fel Infused Blossom from the City of Dalaran for Shylamiir in Stormwind City.";
+L["Quest_92456_Location"] = "Shylamiir (Stormwind City - The Park; "..YELLOW.."31.6, 63.0"..WHITE..")";
+L["Quest_92456_Note"] = "Located in the center of the city next to the Fel Ancient "..YELLOW.."[7]"..WHITE..".";
+L["Quest_92456_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_92457_Name"] = "Starving Arcane";
+L["Quest_92457_Objective"] = "Defeat 8 Seeking Remnants, 8 Saturated Remnants, and 8 Mana Echoes inside the City of Dalaran for Archmage Modera outside of Dalaran.";
+L["Quest_92457_Location"] = "Image of Archmage Modera (Silverpine Forest; "..YELLOW.."68.6, 45.2"..WHITE..")";
+L["Quest_92457_Note"] = "";
+L["Quest_92457_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+L["Quest_92457_PreQuest"] = "An Alarming Request";
+
+L["Quest_96986_Name"] = "The Grave Knight";
+L["Quest_96986_Objective"] = "Defeat Atrexis the Grave Knight in the City of Dalaran for Melisara in Tarren Mill.";
+L["Quest_96986_Location"] = "Melisara (Hillsbrad Foothills - Tarren Mill; "..YELLOW.."62.6, 20.6"..WHITE..")";
+L["Quest_96986_Note"] = "Kill Atrexis the Grave Knight "..YELLOW.."[1]"..WHITE..".";
+L["Quest_96986_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_96988_Name"] = "Source of Power";
+L["Quest_96988_Objective"] = "Collect 6 Cracked Sentry Cores in the City of Dalaran for Doctor Martin Felben in Undercity.";
+L["Quest_96988_Location"] = "Doctor Martin Felben (Undercity - The Apothecarium; "..YELLOW.."46.6, 74.4"..WHITE..")";
+L["Quest_96988_Note"] = "";
+L["Quest_96988_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_96987_Name"] = "Opportunistic Education";
+L["Quest_96987_Objective"] = "Collect the Founding of Dalaran from the City of Dalaran for Rexxie Copperclutch near the sewer entrance.";
+L["Quest_96987_Location"] = "Rexxie Copperclutch (City of Dalaran; "..BLUE.."[A]"..WHITE..")";
+L["Quest_96987_Note"] = "Starts at Rexxie Coppercluth near the entrance. The book is located on a shelf within the dome on the west side of the city.";
+L["Quest_96987_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_96984_Name"] = "Heart of Disruption";
+L["Quest_96984_Objective"] = "Collect the Arcane Mote in the City of Dalaran for Magus Wordeen Voidglare in Tarren Mill.";
+L["Quest_96984_Location"] = "Image of Archmage Modera (Silverpine Forest; "..YELLOW.."68.6, 45.2"..WHITE..")";
+L["Quest_96984_Note"] = "Drops from Shade of the Archmage "..YELLOW.."[8]"..WHITE..".";
+L["Quest_96984_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
+L["Quest_96984_PreQuest"] = "Blood in the Streets";
+L["Quest_96984_FollowQuest"] = "Shrewd Negotiations";
+
+L["Quest_95788_Name"] = "Magics of the Drowned City";
+L["Quest_95788_Objective"] = "Collect 5 I'lalai Fetishes from trolls in the Drowned City.";
+L["Quest_95788_Location"] = "Loremaster Dibbs (Hillsbrad Foothills - Southshore; "..YELLOW.."50.6, 57.0"..WHITE..")";
+L["Quest_95788_Note"] = "";
+L["Quest_95788_RewardText"] = AQ_NONE;
+L["Quest_95788_PreQuest"] = "An Acquaintance in Southshore";
+L["Quest_95788_FollowQuest"] = "The Web of Magic";
+
+L["Quest_95787_Name"] = "Take Two With Water";
+L["Quest_95787_Objective"] = "Use the hide and charcoal to create rubbings of the tablets found in the Drowned City.";
+L["Quest_95787_Location"] = "Loremaster Dibbs (Hillsbrad Foothills - Southshore; "..YELLOW.."50.6, 57.0"..WHITE..")";
+L["Quest_95787_Note"] = "There are four tablets. The first is after Zul'Alai "..YELLOW.."[1]"..WHITE..". The second is at Var'Taka "..YELLOW.."[2]"..WHITE..". The third is near Captain Dreadrise "..YELLOW.."[3]"..WHITE..". The fourth is at Min'loth the Serpent "..YELLOW.."[6]"..WHITE..".";
+L["Quest_95787_RewardText"] = AQ_NONE;
+L["Quest_95787_PreQuest"] = "An Acquaintance in Southshore";
+L["Quest_95787_FollowQuest"] = "Findings for the Explorer's League";
+
+L["Quest_97130_Name"] = "Ancient Gurubashi Secrets";
+L["Quest_97130_Objective"] = "Recover an Ancient Gurubashi Idol from the Drowned City.";
+L["Quest_97130_Location"] = "Archmage Timear (Alterac Mountains - Dalaran; "..YELLOW.."15.6, 73.6"..WHITE..")";
+L["Quest_97130_Note"] = "Ancient Gurubashi Idol drops from Deathless Marrow "..YELLOW.."[4]"..WHITE..".";
+L["Quest_97130_RewardText"] = AQ_NONE;
+
+L["Quest_95789_Name"] = "Shady Saltseers";
+L["Quest_95789_Objective"] = "Collect 10 Voodoo Infused Artifacts from Saltseer pirates in the Drowned City.";
+L["Quest_95789_Location"] = "Krazek (Stranglethorn Vale - Booty Bay; "..YELLOW.."27.0, 77.2"..WHITE..")";
+L["Quest_95789_Note"] = "Pirates are near Captain Dreadrise "..YELLOW.."[3]"..WHITE..".";
+L["Quest_95789_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_95791_Name"] = "The Saltseer Captain";
+L["Quest_95791_Objective"] = "Slay 3 Saltseer Coroners and Captain Dreadrise in the Drowned City.";
+L["Quest_95791_Location"] = "Krazek (Stranglethorn Vale - Booty Bay; "..YELLOW.."27.0, 77.2"..WHITE..")";
+L["Quest_95791_Note"] = "Kill Captain Dreadrise "..YELLOW.."[3]"..WHITE.." and a few Saltseer Coroners.";
+L["Quest_95791_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_95776_Name"] = "The Only Good Brinescale...";
+L["Quest_95776_Objective"] = "Slay Var'Taka in the Drowned City.";
+L["Quest_95776_Location"] = "Commander Aggro'gosh (Stranglethorn Vale - Grom'gol Base Camp; "..YELLOW.."32.2, 28.8"..WHITE..")";
+L["Quest_95776_Note"] = "Kill Var'Taka "..YELLOW.."[2]"..WHITE..".";
+L["Quest_95776_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+
+L["Quest_95775_Name"] = "The Drowned City";
+L["Quest_95775_Objective"] = "Use the hide and charcoal to create rubbings of the tablets found in the Drowned City.";
+L["Quest_95775_Location"] = "Kin'weelay (Stranglethorn Vale - Grom'gol Base Camp; "..YELLOW.."32.2, 27.8"..WHITE..")";
+L["Quest_95775_Note"] = "There are four tablets. The first is after Zul'Alai "..YELLOW.."[1]"..WHITE..". The second is at Var'Taka "..YELLOW.."[2]"..WHITE..". The third is near Captain Dreadrise "..YELLOW.."[3]"..WHITE..". The fourth is at Min'loth the Serpent "..YELLOW.."[6]"..WHITE..".";
+L["Quest_95775_RewardText"] = AQ_NONE;
+
+L["Quest_96774_Name"] = "Ancient Gurubashi Idol";
+L["Quest_96774_Objective"] = "Recover an Ancient Gurubashi Idol from the Drowned City.";
+L["Quest_96774_Location"] = "Mazu'kon (Mulgore - Skywatcher Plateau; "..YELLOW.."32.6, 20.6"..WHITE..")";
+L["Quest_96774_Note"] = "Ancient Gurubashi Idol drops from Deathless Marrow "..YELLOW.."[4]"..WHITE..".";
+L["Quest_96774_RewardText"] = AQ_NONE;
+
+L["Quest_94983_Name"] = "Twilight Mementos";
+L["Quest_94983_Objective"] = "Collect 8 Cultist Bangles from the Twilight's Hammer in Krol'dok Stronghold.";
+L["Quest_94983_Location"] = "Sergeant Riftan (Riverglades - Twilight's Shroud; "..YELLOW.."30.6, 49.0"..WHITE..")";
+L["Quest_94983_Note"] = "";
+L["Quest_94983_RewardText"] = AQ_NONE;
+L["Quest_94983_PreQuest"] = "Bring Me His Head";
+L["Quest_94983_FollowQuest"] = "Lingering Essence";
+
+L["Quest_94982_Name"] = "Eye of Mugg";
+L["Quest_94982_Objective"] = "Infiltrate Krol'dok Stronghold and return to Commander Brant with proof of their leader's demise.";
+L["Quest_94982_Location"] = "Demar Brant (Riverglades - Farholde Keep; "..YELLOW.."66.6, 81.0"..WHITE..")";
+L["Quest_94982_Note"] = "Eye of Mugg drops from Overlord Mugg "..YELLOW.."[3]"..WHITE..".";
+L["Quest_94982_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
+
+L["Quest_94980_Name"] = "Krol'dok Moulding";
+L["Quest_94980_Objective"] = "Find someone in Farholde Keep who may know about the mould.";
+L["Quest_94980_Location"] = "Tunk (Krol'dok Stronghold; "..YELLOW.."[5]"..WHITE..")";
+L["Quest_94980_Note"] = "Krol'dok Moulding drops from Tunk, near War Handler Ashka "..YELLOW.."[5]"..WHITE.." to start the quest. The followup quest rewards the Krol'dok Compound Key, which unlocks a door that lets you skip to the last boss.";
+L["Quest_94980_RewardText"] = AQ_NONE;
+L["Quest_94980_FollowQuest"] = "Key Ingredients";
+
+L["Quest_94984_Name"] = "Tome of Twilight";
+L["Quest_94984_Objective"] = "Kill Nar'gurk within Krol'dok Stronghold and recover any valuable information.";
+L["Quest_94984_Location"] = "Ashe Amberhall (Riverglades - Farholde Keep; "..YELLOW.."66.6, 81.0"..WHITE..")";
+L["Quest_94984_Note"] = "The Tome of Twilight drops from Nar'gurk "..YELLOW.."[1]"..WHITE..".";
+L["Quest_94984_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+L["Quest_94984_PreQuest"] = "A Small Favor";
+
+L["Quest_96771_Name"] = "Vengeance of the Highborne";
+L["Quest_96771_Objective"] = "Travel to Krol'dok Stronghold and slay Zalfan Moonshadow.";
+L["Quest_96771_Location"] = "Ranath Nightstride (Alterac Mountains - Dalaran; "..YELLOW.."17.8, 66.0"..WHITE..")";
+L["Quest_96771_Note"] = "Zalfan Moonshadow is near Nar'gurk "..YELLOW.."[1]"..WHITE..".";
+L["Quest_96771_RewardText"] = AQ_NONE;
+
+L["Quest_94975_Name"] = "A Token of Vengeance";
+L["Quest_94975_Objective"] = "Collect 15 Cultist Ears from the Twilight's Hammer in Krol'dok Stronghold.";
+L["Quest_94975_Location"] = "Da'grosh (Riverglades - Twilight's Shroud; "..YELLOW.."33.4, 38.0"..WHITE..")";
+L["Quest_94975_Note"] = "";
+L["Quest_94975_RewardText"] = WHITE.."1";
+L["Quest_94975_PreQuest"] = "Bring Me His Head";
+
+L["Quest_94968_Name"] = "Eye of Mugg";
+L["Quest_94968_Objective"] = "Infiltrate Krol'dok Stronghold and return to Krom'rosh with proof of their leader's demise.";
+L["Quest_94968_Location"] = "Krom'rosh (Riverglades - Rog'mar; "..YELLOW.."59.4, 45.6"..WHITE..")";
+L["Quest_94968_Note"] = "Eye of Mugg drops from Overlord Mugg "..YELLOW.."[3]"..WHITE..".";
+L["Quest_94968_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2"..AQ_OR..WHITE.."3";
+
+L["Quest_94973_Name"] = "Krol'dok Moulding";
+L["Quest_94973_Objective"] = "Find someone in Rog'mar who may know about the mould.";
+L["Quest_94973_Location"] = "Tunk (Krol'dok Stronghold; "..YELLOW.."[5]"..WHITE..")";
+L["Quest_94973_Note"] = "Krol'dok Moulding drops from Tunk, near War Handler Ashka "..YELLOW.."[5]"..WHITE.." to start the quest. The followup quest rewards the Krol'dok Compound Key, which unlocks a door that lets you skip to the last boss.";
+L["Quest_94973_RewardText"] = AQ_NONE;
+L["Quest_94973_FollowQuest"] = "Key Ingredients";
+
+L["Quest_94972_Name"] = "Tome of Twilight";
+L["Quest_94972_Objective"] = "Recover the Tome of Twilight from Krol'dok Stronghold.";
+L["Quest_94972_Location"] = "Tran'gul (Riverglades - Rog'mar; "..YELLOW.."59.6, 44.0"..WHITE..")";
+L["Quest_94972_Note"] = "The Tome of Twilight drops from Nar'gurk "..YELLOW.."[1]"..WHITE..".";
+L["Quest_94972_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
+L["Quest_94972_PreQuest"] = "It Is Time, Brother...";
 
 -- Placeholder
 --[[
