@@ -2888,6 +2888,34 @@ L["Quest_94972_Note"] = "The Tome of Twilight drops from Nar'gurk "..YELLOW.."[1
 L["Quest_94972_RewardText"] = WHITE.."1"..AQ_OR..WHITE.."2";
 L["Quest_94972_PreQuest"] = "It Is Time, Brother...";
 
+L["Quest_92753_Name"] = "Destruction in Deadmines";
+L["Quest_92753_Objective"] = "Find the forge hidden in the Deadmines, and plant the Extra-Destructive Explosives nearby. Then, meet up with Alba Fairmoon at the Deadmines exit.";
+L["Quest_92753_Location"] = "Alba Fairmoon (Westfall - Sentinel Hill; "..YELLOW.."52.6, 53.2"..WHITE..")";
+L["Quest_92753_Note"] = "The forge is at Gilnid "..YELLOW.."[4]"..WHITE..". Afterwards, leave Deadmines through the exit and Alba Fairmoon will be waiting for you.";
+L["Quest_92753_RewardText"] = AQ_NONE;
+L["Quest_92753_PreQuest"] = "Explosive Consultation";
+L["Quest_92753_FollowQuest"] = "Destruction in Deadmines";
+
+L["Quest_95036_Name"] = "A Moon-Kissed Blade";
+L["Quest_95036_Objective"] = "Speak with Trevan Rol in the Sepulcher and bring him the materials he requires.";
+L["Quest_95036_Location"] = "Lumina Windsinger (Silverpine Forest - The Sepulcher; "..YELLOW.."43.2, 41.0"..WHITE..")";
+L["Quest_95036_Note"] = "Paladin quest. Whitestone Oak Lumber comes from goblins near Sneed "..YELLOW.."[3]"..WHITE.." in Deadmines. Enchanted Silver Ingot comes from the table near Arugal "..YELLOW.."[8]"..WHITE.." in Shadowfang Keep. Purified Kor Gem comes from the quest Seeking the Kor Gem, which involves killing elite caster mobs outside of Blackfathom Deeps.";
+L["Quest_95036_RewardText"] = AQ_NONE;
+L["Quest_95036_PreQuest"] = "The Debt";
+L["Quest_95036_FollowQuest"] = "An Underrated Talent";
+
+L["Quest_96773_Name"] = "The Coldbringer's Eye";
+L["Quest_96773_Objective"] = "Recover The Coldbringer's Eye from Razorfen Downs.";
+L["Quest_96773_Location"] = "Archmage Lan'dalock (Alterac Mountains - Dalaran; "..YELLOW.."15.6, 73.6"..WHITE..")";
+L["Quest_96773_Note"] = "The Coldbringer's Eye is a blue orb next to Amnennar the Coldbringer "..YELLOW.."[6]"..WHITE..".";
+L["Quest_96773_RewardText"] = AQ_NONE;
+
+L["Quest_97196_Name"] = "The Coldbringer's Eye";
+L["Quest_97196_Objective"] = "Recover The Coldbringer's Eye from Razorfen Downs.";
+L["Quest_97196_Location"] = "Sutara Plainstalker (Mulgore - Skywatcher Plateau; "..YELLOW.."34.6, 22.8"..WHITE..")";
+L["Quest_97196_Note"] = "The Coldbringer's Eye is a blue orb next to Amnennar the Coldbringer "..YELLOW.."[6]"..WHITE..".";
+L["Quest_97196_RewardText"] = AQ_NONE;
+
 -- Placeholder
 --[[
 L["Quest__Name"] = "Dead";

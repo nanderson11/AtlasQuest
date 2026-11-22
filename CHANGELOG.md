@@ -1,8 +1,11 @@
 # Changelog
 
-## 5.8.0 - November 20, 2026
+## 5.8.0 - November 22, 2026
 ### Added
 - Forever: Added quests for City of Dalaran, Drowned City and Krol'dok Stronghold. Note that these maps are only in original Atlas, not Atlas (fork).
+- Forever: Added Destruction in Deadmines to Deadmines
+- Forever: Added A Moon-Kissed Blade to Deadmines and Shadowfang Keep
+- Forever: Added The Coldbringer's Eye to Razorfen Downs
 
 ## 5.7.0 - November 16, 2026
 ### Added

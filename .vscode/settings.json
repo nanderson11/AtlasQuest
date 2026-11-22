@@ -51,7 +51,8 @@
 		"getglobal",
 		"Item",
 		"ShoppingTooltip1",
-		"ShoppingTooltip2"
+		"ShoppingTooltip2",
+		"WOW_PROJECT_CAMELOT"
 	],
 	"Lua.runtime.version": "Lua 5.1",
 	"Lua.runtime.builtin": {
